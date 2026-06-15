@@ -1,0 +1,17 @@
+number a is 5.
+number b is 10.
+
+if a is less than b.
+    show "a is less than b!".
+else.
+    show "a is greater or equal to b!".
+end.
+
+task greet with name.
+    show "Hello " + name.
+end.
+
+run greet with "Ayush".
+
+text greeting is "Welcome to Aayu".
+show upper of greeting.

@@ -1,0 +1,13 @@
+use api.
+use routes.
+
+show "=== Student API ===".
+run start_server.
+
+run post_student with "Ayush" and "21" and "test@test.com".
+run get_student_route.
+
+run put_student with "Ayush" and "22" and "test@test.com".
+run get_student_route.
+
+run delete_student_route.

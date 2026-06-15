@@ -1,0 +1,29 @@
+use student.
+
+task create_student with name and age and email.
+    Student new_student is.
+        name name
+        age age
+        email email
+    end.
+    
+    text data is name + "," + age + "," + email.
+    write data to "project_8_student_api/students.txt".
+    show "Student Created".
+end.
+
+task get_student.
+    text data is read "project_8_student_api/students.txt".
+    show data.
+end.
+
+task update_student with name and new_age and email.
+    text data is name + "," + new_age + "," + email.
+    write data to "project_8_student_api/students.txt".
+    show "Student Updated".
+end.
+
+task delete_student.
+    write "Student Deleted" to "project_8_student_api/students.txt".
+    show "Student Deleted".
+end.

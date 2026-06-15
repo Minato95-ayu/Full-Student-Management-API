@@ -1,0 +1,21 @@
+use database.
+
+task post_student with name and age and email.
+    show "POST /student".
+    run create_student with name and age and email.
+end.
+
+task get_student_route.
+    show "GET /student".
+    run get_student.
+end.
+
+task put_student with name and new_age and email.
+    show "PUT /student".
+    run update_student with name and new_age and email.
+end.
+
+task delete_student_route.
+    show "DELETE /student".
+    run delete_student.
+end.
